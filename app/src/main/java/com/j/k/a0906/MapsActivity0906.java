@@ -42,6 +42,6 @@ public class MapsActivity0906 extends FragmentActivity implements OnMapReadyCall
         LatLng sydney = new LatLng(-34, 151);
         mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
-        // agregado para prueba de versión
+        // agregado para prueba de versión 1.1
     }
 }
